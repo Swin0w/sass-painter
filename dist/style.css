@@ -59,7 +59,6 @@ header {
 #navWebSite li {
   display: inline-block;
   vertical-align: middle;
-  line-height: 30px;
   padding-right: 30px;
 }
 
@@ -69,5 +68,45 @@ header {
 }
 
 #jumbotron {
-  background: url(/images/bg-painter-home.jpg?4a1f2090e3cf4d0ad188b99adeb6cd44);
+  background-color: orange;
+  height: 50vh;
+  padding-top: 80px;
+}
+
+#jumbotron img {
+  width: 220px;
+  height: 50px;
+}
+
+#text-motto {
+  padding-top: 15px;
+}
+
+#text-motto p {
+  font-size: 15pt;
+}
+
+#text-purple {
+  padding-top: 40px;
+}
+
+#text-purple p {
+  color: #f64dff;
+  font-size: 13pt;
+}
+
+#button {
+  padding-top: 30px;
+}
+
+#button button {
+  background-color: #000;
+  margin-right: 20px;
+  color: white;
+  border: none;
+}
+
+#button button, #button input {
+  width: 200px;
+  height: 40px;
 }
