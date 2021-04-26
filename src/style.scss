@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+// Intestazione
+header {
+  background-color: #000;
+  height: 120px;
+}
+#info {
+  display: flex;
+  padding: 10px 0;
+  justify-content: flex-end;
+}
+#info-nav li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 15px;
+}
+#info-nav li a {
+  text-decoration: none;
+  color: #9b9d9e;
+}
+#info-nav li a .fas {
+  color: #0077b8;
+}
+#info-nav li a span {
+  font-size: 10pt;
+}
+#info-nav, #lang {
+  display: inline-block;
+  padding-right: 20px;
+}
