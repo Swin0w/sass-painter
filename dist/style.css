@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -19,7 +19,7 @@ body {
 
 header {
   background-color: #000;
-  height: 120px;
+  height: 100px;
 }
 
 #info {
@@ -50,4 +50,24 @@ header {
 #info-nav, #lang {
   display: inline-block;
   padding-right: 20px;
+}
+
+#logoAndNav {
+  display: flex;
+}
+
+#navWebSite li {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+  padding-right: 30px;
+}
+
+#navWebSite li a {
+  text-decoration: none;
+  color: white;
+}
+
+#jumbotron {
+  background: url(/images/bg-painter-home.jpg?4a1f2090e3cf4d0ad188b99adeb6cd44);
 }
