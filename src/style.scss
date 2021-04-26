@@ -85,13 +85,17 @@ header {
 #button {
   padding-top: 30px;
 }
-#button button {
+#one, #two {
+  width: 200px;
+  height: 40px;
+}
+#one {
   background-color: #000;
   margin-right: 20px;
   color: white;
   border: none;
 }
-#button button, #button input {
-  width: 200px;
-  height: 40px;
+#two {
+  background-color: transparent;
+  border: 1px solid #000;
 }
